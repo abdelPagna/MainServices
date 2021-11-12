@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HelperService } from '../../helper/helper.service';
-import data from "../../data/navigation.json";
+import data from '../../data/navigation.json';
 
 @Component({
   selector: 'app-header-two',
