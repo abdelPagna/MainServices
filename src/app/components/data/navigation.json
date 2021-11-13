@@ -12,6 +12,7 @@
     {
         "id": 3,
         "linkText": "Services",
+        "link": "/services",
         "child": true,
         "submenu": [
             {
@@ -26,97 +27,26 @@
             }
         ]
     },
-    {
-        "id": 4,
-        "linkText": "Team",
-        "child": true,
-        "submenu": [
-            {
-                "id": 4.1,
-                "link": "/team",
-                "linkText": "Team"
-            },
-            {
-                "id": 4.2,
-                "link": "/team-details/1",
-                "linkText": "Team Details"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "linkText": "Pages",
-        "child": true,
-        "submenu": [
-            {
-                "id": 5.1,
-                "link": "/company",
-                "linkText": "Company History"
-            },
-            {
-                "id": 5.2,
-                "link": "/portfolio-grid",
-                "linkText": "Portfolio Grid"
-            },
-            {
-                "id": 5.3,
-                "link": "/portfolio-masonry",
-                "linkText": "Portfolio Masonry"
-            },
-            {
-                "id": 5.4,
-                "link": "/portfolio-details/1",
-                "linkText": "Portfolio Details"
-            },
-            {
-                "id": 5.5,
-                "link": "/faqs",
-                "linkText": "FAQ's"
-            },
-            {
-                "id": 5.6,
-                "link": "/testimonials",
-                "linkText": "Testimonials"
-            },
-            {
-                "id": 5.7,
-                "link": "/pricing",
-                "linkText": "Pricing"
-            },
-            {
-                "id": 5.8,
-                "link": "/career",
-                "linkText": "Career"
-            },
-            {
-                "id": 5.9,
-                "link": "/error-404",
-                "linkText": "Error Page"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "linkText": "News",
-        "child": true,
-        "submenu": [
-            {
-                "id": 6.1,
-                "link": "/blog",
-                "linkText": "News Grid"
-            },
-            {
-                "id": 6.2,
-                "link": "/blog-standard",
-                "linkText": "News Standard"
-            },
-            {
-                "id": 6.3,
-                "link": "/blog-details/1",
-                "linkText": "News Details"
-            }
-        ]
-    },
+
+  {
+    "id": 4,
+    "link": "/career",
+    "linkText": "Career",
+    "child": true,
+    "submenu": [
+      {
+        "id": 4.1,
+        "link": "/team",
+        "linkText": "Team"
+      },
+      {
+        "id": 5.1,
+        "link": "/company",
+        "linkText": "Company History"
+      }
+    ]
+
+  },
     {
         "id": 7,
         "linkText": "Contact",
