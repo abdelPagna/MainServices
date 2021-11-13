@@ -4,9 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   // Home
   { path: '', loadChildren: () => import('./components/pages/home/home.module').then(m => m.HomeModule), data: { breadcrumb: "Homepage" } },
-  { path: 'home-v2', loadChildren: () => import('./components/pages/home-two/home-two.module').then(m => m.HomeTwoModule), data: { breadcrumb: "Homepage" } },
+  /*{ path: 'home-v2', loadChildren: () => import('./components/pages/home-two/home-two.module').then(m => m.HomeTwoModule), data: { breadcrumb: "Homepage" } },
   { path: 'home-v3', loadChildren: () => import('./components/pages/home-three/home-three.module').then(m => m.HomeThreeModule), data: { breadcrumb: "Homepage" } },
-  // About Us
+  */// About Us
   { path: 'about', loadChildren: () => import('./components/pages/about/about.module').then(m => m.AboutModule), data: { breadcrumb: "About Us" } },
   // Services
   { path: 'services', loadChildren: () => import('./components/pages/services/services.module').then(m => m.ServicesModule), data: { breadcrumb: "Services" } },
