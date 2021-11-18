@@ -17,17 +17,20 @@ import { Location, LocationStrategy, PathLocationStrategy } from '@angular/commo
 export class AppComponent implements OnInit {
   constructor(private titleService: Title, private breadcrumbService: BreadcrumbService) {
   }
-  
+
   ngOnInit(): void {
     this.breadcrumbService.breadcrumbChanged.subscribe(crumbs => {
       this.titleService.setTitle(this.createTitle(crumbs));
     });
   }
-  onActivate(_event:any){
-    window.scroll(0,0);
+
+  // tslint:disable-next-line:variable-name typedef
+  onActivate(_event: any){
+    window.scroll(0, 0);
   }
+  // tslint:disable-next-line:typedef
   private createTitle(routesCollection: Breadcrumb[]) {
-    const title = "Conbiz || Responsive Angular Template. || ";
+    const title = 'Main-Services';
     const titles = routesCollection.filter((route) => route.displayName);
 
     if (!titles.length) { return title; }
@@ -36,6 +39,7 @@ export class AppComponent implements OnInit {
     return `${title}${routeTitle}`;
   }
 
+  // tslint:disable-next-line:typedef
   private titlesToString(titles: any[]) {
     return titles.reduce((prev, curr) => {
       return `${prev} || ${curr.displayName}`;

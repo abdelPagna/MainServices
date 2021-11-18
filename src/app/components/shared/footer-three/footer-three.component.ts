@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from "../../data/instagram.json";
+import data from '../../data/instagram.json';
 
 @Component({
   selector: 'app-footer-three',
