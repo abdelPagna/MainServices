@@ -1,55 +1,29 @@
 [
     {
         "id": 1,
-        "linkText": "Home"
-
+        "linkText": "Accueil",
+        "link": "/"
     },
     {
         "id": 2,
         "link": "/about",
-        "linkText": "About Us"
+        "linkText": "À propos de nous"
     },
     {
         "id": 3,
-        "linkText": "Services",
-        "link": "/services",
-        "child": true,
-        "submenu": [
-            {
-                "id": 3.1,
-                "link": "/services",
-                "linkText": "Services"
-            },
-            {
-                "id": 3.2,
-                "link": "/service-details/1",
-                "linkText": "Service Details"
-            }
-        ]
+        "linkText": "Nos Services",
+        "link": "/services"
     },
 
   {
     "id": 4,
     "link": "/career",
-    "linkText": "Career",
-    "child": true,
-    "submenu": [
-      {
-        "id": 4.1,
-        "link": "/team",
-        "linkText": "Team"
-      },
-      {
-        "id": 5.1,
-        "link": "/company",
-        "linkText": "Company History"
-      }
-    ]
+    "linkText": "Carrière"
 
   },
     {
         "id": 7,
-        "linkText": "Contact",
+        "linkText": "Nous contacter",
         "link": "/contact"
     }
 ]
