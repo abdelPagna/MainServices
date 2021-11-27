@@ -2,22 +2,22 @@
     {
         "id":1,
         "icon":"icon-pin",
-        "title":"Our Location",
-        "text":"<p>354 Oakridge, Camden <br>NJ 08102 - USA</p>",
+        "title":"Notre Localisation",
+        "text":"<p>Biyem - Assi , Yaoundé <br>Cameroun</p>",
         "style":""
     },
     {
         "id":2,
         "icon":"icon-letter",
-        "title":"Email Address",
-        "text":"<p><a href='mailto:example@example.com'>example@example.com</a></p> <p><a href='mailto:example@example.com'>www.example.net</a></p>",
+        "title":"Adresse Email",
+        "text":"<p><a href='mailto:contact@main-services.com'>contact@main-services.com</a></p> <p><a href='contact@main-services.com'>www.main-services.com</a></p>",
         "style":"style2"
     },
     {
         "id":3,
         "icon":"icon-phone-call",
-        "title":"Phone Number",
-        "text":"<p><a href='tel:123456789'>+012 (345) 678 99</a></p> <p><a href='tel:123456789'>+8563214</a></p>",
+        "title":"Numéro De Télephone",
+        "text":"<p><a href='tel:237693590397'>(+237) 693 59 03 97</a></p> <p><a href='tel:123456789'>(+241) 77 72 89 74</a></p>",
         "style":"style3"
     }
 ]

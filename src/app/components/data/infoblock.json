@@ -1,23 +1,23 @@
 [
     {
         "id":1,
-        "title":"Let’s Ready to Get<br>Work Together",
+        "title":"Besoin De Partenariat<br>Avec Nous ?",
         "image":"assets/images/resources/info-v1-img1.png",
-        "btntext":"Join Now",
+        "btntext":"Nous Joindre",
         "link":"/career"
     },
     {
         "id":2,
-        "title":"Request To Call Back<br>We Will Call!",
+        "title":"Vous hésitez Sur Le <br>Coût De Votre Projet ?",
         "image":"assets/images/resources/info-v1-img2.png",
-        "btntext":"Get A Quote",
+        "btntext":"Obtenir Un Dévis",
         "link":"/contact"
     },
     {
         "id":3,
-        "title":"Build A Better Career<br>With Mains-Services",
+        "title":"Une meilleure Carrière<br>Avec Mains-Services",
         "image":"assets/images/resources/info-v1-img3.png",
-        "btntext":"View Jobs",
+        "btntext":"Voir Les Offres",
         "link":"/career"
     }
 ]

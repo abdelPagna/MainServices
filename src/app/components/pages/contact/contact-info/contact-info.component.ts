@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from "../../../data/contactinfo.json";
+import data from '../../../data/contactinfo.json';
 
 @Component({
   selector: 'app-contact-info',
