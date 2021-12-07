@@ -1,17 +1,17 @@
 [
     {
         "id":1,
-        "title":"Static Innovations",
-        "text":"Sed ut perspiciatis unde omnis iste natus error volupte accusantium doloremu laudantium totam"
+        "title":"Innovations Permanentes",
+        "text":"Avec passion et créativité notre équipe met à votre disposition ses compétences et son expérience pour garantir la réussite de vos projets informatique."
     },
     {
         "id":2,
-        "title":"Consulting & Advisory",
-        "text":"Sed ut perspiciatis unde omnis iste natus error volupte accusantium doloremu laudantium totam"
+        "title":"Consultation",
+        "text":"Votre réussite est aussi la nôtre; car à Mains-Services la réussite est toujours collective."
     },
     {
         "id":3,
-        "title":"Turnaround Situations",
-        "text":"Sed ut perspiciatis unde omnis iste natus error volupte accusantium doloremu laudantium totam"
+        "title":"Développement logiciel",
+        "text":"Prenez contact avec nous dès aujourd’hui pour vos projets de développement logiciel ou tout autre besoin en informatique."
     }
 ]
